@@ -1,0 +1,70 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "vector-of-bool.cmake-tools"
+        },
+        {
+            "name": "Cygwin 64",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/cygwin64/bin/gcc.exe",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/cygwin64/usr/include",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.4.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "clang-x64",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/msys64/mingw64/include/c++/8.3.0",
+                "C:/msys64/mingw64/include/c++/8.3.0/x86_64-w64-mingw32",
+                "C:/msys64/mingw64/include/c++/8.3.0/backward",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/x86_64-w64-mingw32/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "browse": {
+                "path": [
+                    "C:/msys64/mingw64/include",
+                    "C:/msys64/mingw64/x86_64-w64-mingw32/include",
+                    "C:/msys64/mingw64/x86_64-w64-mingw32/include/*"
+                ],
+                "cStandard": "c11",
+                "cppStandard": "c++17",
+                "compilerPath": "C:/msys64/mingw64/bin",
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
